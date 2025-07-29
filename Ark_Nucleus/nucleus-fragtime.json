@@ -17,7 +17,7 @@
                     "Title": "$$SERVER$:$HOME",
                     "Note": "$$SERVER$:$HOME_NOTE",
                     "Fill": 1,
-                    "Image": "https://cdn.survivetheark.com/uploads/monthly_2024_06/ASA_SummerBash_CC_416_28_June_StA_Cover_1200x675.png.4946192f6ccf8ff774755c978d73384b.png"
+                    "Image": "https://ark2.de/uploads/monthly_2024_06/large.ASA_SummerBash_CC_416_28_June_wLogo_2560x1440.png.ce8d6d8401e5d29d4ebd1e1a2e0fed7a.png"
                 },
                 "UIItems": [
                     {
@@ -233,132 +233,6 @@
                                                                     "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                                                     "Props": {
                                                                         "Text": "This is just a small representation of what kind of pages can be setup using the Ark-Nucleus JSON Editor.",
-                                                                        "FontSize": 15,
-                                                                        "Fill": 1
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                                    "Props": {
-                                                                        "Label": "$$Ark-Nucleus$:$OK_BTN"
-                                                                    },
-                                                                    "OnClickEvent": {
-                                                                        "EventUID": "CloseModal"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                                "Props": {
-                                    "VerticalAlignment": 0,
-                                    "Fill": 1,
-                                    "Color": [
-                                        0,
-                                        0.7,
-                                        0.5
-                                    ],
-                                    "Padding": [
-                                        10,
-                                        10,
-                                        10,
-                                        10
-                                    ]
-                                },
-                                "UIItems": [
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                                        "Props": {
-                                            "Padding": [
-                                                5,
-                                                5,
-                                                5,
-                                                5
-                                            ]
-                                        },
-                                        "UIItems": [
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
-                                                "Props": {
-                                                    "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
-                                                    "Width": 120,
-                                                    "Height": 120,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                                                "Props": {
-                                                    "Fill": 1,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                },
-                                                "UIItems": [
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "Q: Can I disable this for my server?",
-                                                            "FontSize": 14,
-                                                            "Justification": "Center",
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "A: Yes, Go to Installed Mods -> Ark Nucleus ->Server Settings",
-                                                            "FontSize": 11,
-                                                            "Justification": "Center",
-                                                            "Fill": 1,
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                        "Props": {
-                                                            "Label": "Learn More",
-                                                            "Padding": [
-                                                                5,
-                                                                5,
-                                                                5,
-                                                                5
-                                                            ]
-                                                        },
-                                                        "Modal": {
-                                                            "Props": {
-                                                                "Title": "Disable Server Info Page"
-                                                            },
-                                                            "UIItems": [
-                                                                {
-                                                                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                                    "Props": {
-                                                                        "Text": "As majority of things is optional in Ark-Nucleus so is the Server Info Page. You don't see use for it? Disable it!",
                                                                         "FontSize": 15,
                                                                         "Fill": 1
                                                                     }
