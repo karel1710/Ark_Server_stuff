@@ -96,7 +96,22 @@
                                                     {
                                                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                                                         "Props": {
-                                                            "Label": "Join Discord",
+                                                            "Label": "Link to a Twitter Page",
+                                                            "Padding": [
+                                                                5,
+                                                                5,
+                                                                5,
+                                                                5
+                                                            ]
+                                                        },
+                                                        "OnClickEvent": {
+                                                            "Url": "https://twitter.com/"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                                        "Props": {
+                                                            "Label": "Invite to a Discord Server",
                                                             "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
                                                             "Padding": [
                                                                 5,
@@ -106,7 +121,7 @@
                                                             ]
                                                         },
                                                         "OnClickEvent": {
-                                                            "Url": "https://discord.gg/45Ud7zdTzs"
+                                                            "Url": "https://discord.gg/"
                                                         }
                                                     }
                                                 ]
