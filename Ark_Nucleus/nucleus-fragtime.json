@@ -254,133 +254,7 @@
                                         ]
                                     }
                                 ]
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                                "Props": {
-                                    "VerticalAlignment": 0,
-                                    "Fill": 1,
-                                    "Color": [
-                                        0,
-                                        0.2,
-                                        0.5
-                                    ],
-                                    "Padding": [
-                                        10,
-                                        10,
-                                        10,
-                                        10
-                                    ]
-                                },
-                                "UIItems": [
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                                        "Props": {
-                                            "Padding": [
-                                                5,
-                                                5,
-                                                5,
-                                                5
-                                            ]
-                                        },
-                                        "UIItems": [
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
-                                                "Props": {
-                                                    "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
-                                                    "Width": 120,
-                                                    "Height": 120,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                                                "Props": {
-                                                    "Fill": 1,
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ]
-                                                },
-                                                "UIItems": [
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "Q: Who can edit this page?",
-                                                            "FontSize": 14,
-                                                            "Justification": "Center",
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                        "Props": {
-                                                            "Text": "A: Only Admins can edit this page.",
-                                                            "Justification": "Center",
-                                                            "FontSize": 11,
-                                                            "Fill": 1,
-                                                            "Padding": [
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                5
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                        "Props": {
-                                                            "Label": "Learn More",
-                                                            "Padding": [
-                                                                5,
-                                                                5,
-                                                                5,
-                                                                5
-                                                            ]
-                                                        },
-                                                        "Modal": {
-                                                            "Props": {
-                                                                "Title": "Who and where to edit?"
-                                                            },
-                                                            "UIItems": [
-                                                                {
-                                                                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                                    "Props": {
-                                                                        "Text": "If you are in the admin mode, you will see an EDIT button in the upper right corner.",
-                                                                        "FontSize": 15,
-                                                                        "Fill": 1
-                                                                    }
-                                                                },
-                                                                {
-                                                                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                                    "Props": {
-                                                                        "Label": "$$Ark-Nucleus$:$OK_BTN"
-                                                                    },
-                                                                    "OnClickEvent": {
-                                                                        "EventUID": "CloseModal"
-                                                                    }
-                                                                }
-                                                            ]
-                                                        }
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
+                            }    
                         ]
                     }
                 ]
@@ -393,55 +267,6 @@
                     "Fill": 1
                 },
                 "UIItems": [
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "THIS IS A DEMO PAGE!!!",
-                            "FontSize": 24,
-                            "Justification": "Center",
-                            "Color": [
-                                1,
-                                0,
-                                0
-                            ],
-                            "Padding": [
-                                5,
-                                5,
-                                5,
-                                5
-                            ]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "The Question and Answers are just an example until replaced by an admin with their own.",
-                            "FontSize": 22,
-                            "Justification": "Center",
-                            "Color": [
-                                1,
-                                0,
-                                0
-                            ],
-                            "Padding": [
-                                5,
-                                5,
-                                5,
-                                5
-                            ]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
-                        "Props": {
-                            "Padding": [
-                                2,
-                                2,
-                                2,
-                                2
-                            ]
-                        }
-                    },
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
                         "Props": {
@@ -693,55 +518,6 @@
                 },
                 "UIItems": [
                     {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "THIS IS A DEMO PAGE!!!",
-                            "FontSize": 24,
-                            "Justification": "Center",
-                            "Color": [
-                                1,
-                                0,
-                                0
-                            ],
-                            "Padding": [
-                                5,
-                                5,
-                                5,
-                                5
-                            ]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "The listed Ruels and Guids are just an example until replaced by an admin with their own.",
-                            "FontSize": 22,
-                            "Justification": "Center",
-                            "Color": [
-                                1,
-                                0,
-                                0
-                            ],
-                            "Padding": [
-                                5,
-                                5,
-                                5,
-                                5
-                            ]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
-                        "Props": {
-                            "Padding": [
-                                2,
-                                2,
-                                2,
-                                2
-                            ]
-                        }
-                    },
-                    {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
                         "Props": {
                             "Fill": 1
@@ -750,7 +526,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "1. Respect thy Neighbor: Treat your fellow Survivors with courtesy and respect. No harassment, hate speech, or toxic behavior will be tolerated.",
+                                    "Text": "$$SERVER$:$RULES_1",
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -763,7 +539,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "2. Base Raiding: While PvP is encouraged, senseless destruction is not. Raiding is allowed, but don't wipe out entire bases. Leave something for your opponents to rebuild with.",
+                                    "Text": "$$SERVER$:$RULES_2",      
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -776,7 +552,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "3. Cheating and Exploits: Any form of cheating, exploiting, or hacking will result in swift and severe consequences. We're here for fair play and a fun experience for everyone.",
+                                    "Text": "$$SERVER$:$RULES_3",                                    
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -789,7 +565,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "4. Building Limits: Keep your structures reasonable in size to maintain server performance. Excessive building or pillar spamming is not allowed.",
+                                    "Text": "$$SERVER$:$RULES_4",                                    
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -802,7 +578,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "5. Wildlife Conservation: Avoid unnecessary killing of passive tames and wildlife. Let's strive for ecological balance on the Ark.",
+                                    "Text": "$$SERVER$:$RULES_5",                                    
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -815,7 +591,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "6. Roleplay Encouraged: Engage in immersive roleplay if that's your style! Whether you're a lone survivor, a tribal leader, or a dino tamer, bring your character to life.",
+                                    "Text": "$$SERVER$:$RULES_6",                                    
                                     "FontSize": 14,
                                     "Padding": [
                                         5,
@@ -824,20 +600,7 @@
                                         5
                                     ]
                                 }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "7. Community Events: Join in on server-wide events for a chance to earn rewards, make new friends, and test your skills against the challenges we throw your way.",
-                                    "FontSize": 14,
-                                    "Padding": [
-                                        5,
-                                        5,
-                                        5,
-                                        5
-                                    ]
-                                }
-                            }
+                            }      
                         ]
                     }
                 ]
